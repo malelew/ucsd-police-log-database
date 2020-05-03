@@ -10,5 +10,5 @@ with open("./src/initial_pull.json", "r") as file:
 
 @app.route("/")
 def index():
-  return render_template("./table.html", data=full_data)
-  # return render_template("./triton_news_header.html")
+  # return render_template("./index.html", data=full_data)
+  return render_template("./triton_news_header.html", data=full_data)
