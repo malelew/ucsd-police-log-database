@@ -1,0 +1,19 @@
+#police-data-table {
+  display: block;
+  width: inherit;
+  height: 80vh;
+  overflow: scroll;
+}
+
+#titles {
+  text-align: center;
+  padding-top: 5vh;
+}
+
+#titles h1 > a {
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    color: #1e73be!important;
+}
